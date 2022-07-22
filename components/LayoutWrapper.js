@@ -15,17 +15,15 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="">
+                <div className="p-0">
                   <lottie-player
                     src="https://assets6.lottiefiles.com/private_files/lf30_kjpkr2oh.json"
                     background="transparent"
-                    speed="1"
+                    speed=".5"
                     style={{ width: '50px', height: '50px' }}
                     loop
                     autoplay
                   ></lottie-player>
-                  {/* <Logo /> */}
-                  {/* <img width={50} src='/static/images/coffee.gif' ></img> */}
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">

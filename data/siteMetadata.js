@@ -2,14 +2,13 @@ const siteMetadata = {
   title: 'Saleem Hadad | Software Engineer',
   author: 'Saleem Hadad',
   headerTitle: 'Saleem Hadad',
-  description:
-    'Software engineer with a product mindset and endless passion for technology. I enjoy working with humans to build scaleable and high-quality software for humans. I love building products, micro-services, and open-source projects.',
+  description: 'Software engineer with a product mindset and endless passion for technology.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://saleem.dev',
   siteRepo: 'https://github.com/saleem-hadad/saleemdev',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  siteLogo: '/static/images/coffee-beans.png',
+  image: '/static/images/saleem.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'contact@saleem.dev',
   github: 'https://github.com/saleem-hadad',

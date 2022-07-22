@@ -1,16 +1,14 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
+name: Saleem Hadad
+avatar: /static/images/saleem.jpg
+occupation: Software Engineer
+company:
 email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+twitter: https://twitter.com/salee2m1
+linkedin: https://www.linkedin.com/in/saleem-hadad
+github: https://github.com/saleem-hadad
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Software engineer with a product mindset and endless passion for technology. I enjoy working with humans to build scalable and high-quality software for humans. I love building products, microservices, and open-source projects.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Outside work, I read about tech, finance, and neurology, and sometimes play guitar 🎸. If you lost me, you'll find me playing and learning with my daughter ❤️👸
