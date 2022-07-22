@@ -28,6 +28,7 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
         rel="canonical"
         href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
       />
+      {/* <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> */}
     </Head>
   )
 }
