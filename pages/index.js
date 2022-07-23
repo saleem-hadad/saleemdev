@@ -7,7 +7,7 @@ import formatDate from '@/lib/utils/formatDate'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
-const MAX_DISPLAY = 20
+const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -33,6 +33,7 @@ export default function Home({ posts }) {
               const { slug, date, title, summary, tags } = frontMatter
               return (
                 <article key={slug} className="group relative">
+                  <div className="absolute -inset-y-2.5 -inset-x-4 group-hover:bg-slate-50/70 dark:group-hover:bg-slate-800/50 sm:rounded-2xl md:-inset-y-4 md:-inset-x-6"></div>
                   <div className="absolute -inset-y-2.5 -inset-x-4 sm:rounded-2xl md:-inset-y-4 md:-inset-x-6 "></div>
                   <svg
                     viewBox="0 0 9 9"
