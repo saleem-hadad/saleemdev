@@ -1,9 +1,8 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
   experimental: {
-    optimizeUniversalDefaults: true,
+    optimizeUniversalDefaults: false,
   },
   content: [
     './pages/**/*.js',
@@ -23,9 +22,6 @@ module.exports = {
         12: '3rem',
         13: '3.25rem',
         14: '3.5rem',
-      },
-      fontFamily: {
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.sky,

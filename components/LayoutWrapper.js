@@ -1,6 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/logo.svg'
+import { Player } from '@lottiefiles/react-lottie-player'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
@@ -16,14 +16,12 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="p-0">
-                  <lottie-player
-                    src="https://assets6.lottiefiles.com/private_files/lf30_kjpkr2oh.json"
-                    background="transparent"
-                    speed=".5"
-                    style={{ width: '50px', height: '50px' }}
-                    loop
+                  <Player
                     autoplay
-                  ></lottie-player>
+                    loop
+                    src="/static/coffee.json"
+                    style={{ height: '50px', width: '50px' }}
+                  ></Player>
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
